@@ -1,0 +1,61 @@
+* {
+    font-family: 'Inter';
+}
+
+.btn-primary {
+    background: #FF5959;
+    border-style: none;
+    border-radius: 5px;
+    width: 160px;
+    height: 56px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background: #ffffff;
+    border-style: none;
+    border-radius: 5px;
+    width: 160px;
+    height: 56px;
+    font-size: 20px;
+    color: #FF5959;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* Header section */
+
+.div-container img {
+    width: 100%;
+    object-fit: cover;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+}
+
+.div-container>h1 {
+    position: absolute;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    top: 230px;
+    left: 285px;
+    width: 750px;
+}
+
+.div-container>p {
+    position: absolute;
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    top: 420px;
+    left: 280px;
+    width: 750px;
+}
+
+.div-container>button {
+    position: absolute;
+    top: 550px;
+    left: 550px;
+}
