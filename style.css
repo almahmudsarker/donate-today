@@ -240,3 +240,51 @@
     transition: 0.5s;
     box-shadow: #000000 0px 0px 10px 0px;
 }
+
+/* Main Section 2 */
+
+.main-container2 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.main-container2>.main-text2 {
+    width: 25%;
+    height: 340px;
+    margin-left: 50px;
+}
+
+.main-container2>.main-text2>h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+}
+
+.main-container2>.main-text2>p {
+    width: 140%;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1f1f1f;
+}
+
+.main-container2>.main-text2>button {
+    margin-top: 5px;
+    border-style: none;
+    border-radius: 5px;
+    width: 260px;
+    height: 56px;
+}
+
+.main-container2>.image2 {
+    margin-left: 100px;
+}
+
+.main-container2>.image2:hover {
+    box-shadow: #000000 0px 0px 10px 0px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* update section */
