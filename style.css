@@ -31,7 +31,7 @@
 .div-container img {
     width: 100%;
     object-fit: cover;
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    transform: scale(1.1);
 }
 
 .div-container>h1 {
@@ -354,7 +354,7 @@
     color: #FFFFFF;
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 0%;
     height: 200px;
 }
 
