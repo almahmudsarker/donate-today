@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Lobster&family=Manrope:wght@200&display=swap');
+
 * {
     font-family: 'Inter';
 }
@@ -346,3 +348,42 @@
 }
 
 /* Footer Section */
+
+.footer {
+    background: #0B0D17;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 200px;
+}
+
+.footer>h2 {
+    padding-top: 50px;
+    font-family: 'Lobster';
+    font-size: 36px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+}
+
+.footer>p {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 560px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+
+.footer>.copyright {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 520px;
+    font-size: 10px;
+}
+
+.footer>.copyright:hover {
+    color: #FF5959;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
