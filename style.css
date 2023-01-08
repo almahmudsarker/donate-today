@@ -288,3 +288,61 @@
 }
 
 /* update section */
+.update {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.update-text>h2 {
+    width: 1200px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+}
+
+.update-text>p {
+    width: 50%;
+    margin-left: 25%;
+    color: #707070;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.update .update-email {
+    width: 800px;
+    height: 200px;
+    background: #FFF4D6;
+    margin-left: 200px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+.update input {
+    margin-top: 80px;
+    margin-left: 180px;
+}
+
+.update input[placeholder="Email"] {
+    width: 300px;
+    height: 50px;
+    border-style: none;
+    background-color: #d3d3d341;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 20px;
+}
+
+.update input[placeholder="Email"]:focus {
+    outline: none;
+}
+
+.update-email .btn-primary {
+    height: 50px;
+    margin-top: 80px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* Footer Section */
