@@ -194,3 +194,49 @@
     font-size: 14px;
     color: #1f1f1f;
 }
+
+/* Main section 1*/
+
+.main-container {
+    display: flex;
+    margin-top: 1300px;
+    margin-bottom: 50px;
+}
+
+
+.main-container>.main-text {
+    width: 40%;
+    height: 340px;
+    margin-left: 127px;
+}
+
+.main-container>.main-text>h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+}
+
+.main-container>.main-text>p {
+    font-size: 17px;
+    line-height: 24px;
+    color: #1f1f1f;
+}
+
+.main-container>.main-text>button {
+    margin-top: 5px;
+    border-style: none;
+    border-radius: 5px;
+    width: 260px;
+    height: 56px;
+}
+
+.main-container>.image {
+    margin-left: 45px;
+}
+
+.main-container>.image:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: #000000 0px 0px 10px 0px;
+}
