@@ -416,3 +416,230 @@ footer div>h2 {
     transform: scale(1.1);
     transition: 0.5s;
 }
+
+
+/* Media Query */
+@media screen and (max-width: 767px) {
+    .heading .div-container>h1 {
+        font-size: 20px;
+        top: 21%;
+        left: 19%;
+        width: 66%;
+    }
+
+    .div-container>p {
+        font-size: 10px;
+        top: 46.99%;
+        left: 4.99%;
+        width: 90%;
+    }
+
+    .div-container>button {
+        top: 70%;
+        left: 41%;
+    }
+
+    .btn-primary {
+        border-radius: 3px;
+        width: 20%;
+        height: 10%;
+        font-size: 9px;
+    }
+
+    .donate-today {
+        margin-left: 0%;
+    }
+
+    .donate-today>h2 {
+        font-size: 20px;
+    }
+
+    .donate-today>.p {
+        font-size: 10px;
+        width: 49%;
+        margin-left: 26%;
+        margin-top: 0%;
+    }
+
+    .donate-today>ul {
+        padding-left: 0%;
+    }
+
+    .donate-today>ul>li {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        border: 0.5px solid rgb(99, 99, 99);
+        border-radius: 3px;
+        width: 14%;
+        padding-top: 2%;
+        padding-left: 1.5%;
+        font-size: 10px;
+        height: 5%;
+    }
+
+    .donate-today p {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        font-size: 5px;
+    }
+
+    .donate-today>hr {
+        width: 60%;
+    }
+
+    .donate-today>button {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        border-radius: 3px;
+        width: 20%;
+        height: 20px;
+        font-size: 6px;
+    }
+
+    .donate-plan>h2 {
+        padding-left: 0%;
+        font-size: 20px;
+    }
+
+    .donate-plan>p {
+        padding-left: 9%;
+        font-size: 13px;
+        width: 84%;
+    }
+
+    .donate-plan>div>ul {
+        margin-left: 0%;
+        flex-direction: column;
+    }
+
+    .donate-plan>div>ul>li>img {
+        padding-right: 0%;
+    }
+
+    .donate-plan>div>ul>li>h3 {
+        padding-left: 3%;
+    }
+
+    .donate-plan>div>ul>li>p {
+        padding-left: 4%;
+    }
+
+    .main-container {
+        margin-left: 0%;
+        flex-direction: column-reverse;
+    }
+
+    .main-container>.main-text {
+        width: 100%;
+        height: 340px;
+        margin-left: 0%;
+    }
+
+    .main-container>.image {
+        margin-left: 0%;
+    }
+
+    .main-container>.image>img {
+        width: 99.70%;
+        height: 100%;
+    }
+
+    .main-container>.main-text>h2 {
+        font-size: 25px;
+        width: 50%;
+        line-height: 90%;
+    }
+
+    .main-container>.main-text>p {
+        font-size: 12px;
+        width: 80%;
+        line-height: 16px;
+
+    }
+
+    .main-container>.main-text>button {
+        width: 30%;
+        height: 8%;
+    }
+
+    .main-container2 {
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    .main-container2>.image2 {
+        margin-left: 0%;
+        width: 380px;
+        height: 350px;
+    }
+
+    .main-container2>.main-text2 {
+        width: 77%;
+        margin-left: 0%;
+    }
+
+    .main-container2>.main-text2>h2 {
+        font-size: 38px;
+        line-height: 43px;
+    }
+
+    .main-container2>.main-text2>p {
+        width: 130%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .main-container2>.main-text2>button {
+        border-radius: 3px;
+        width: 40%;
+        height: 30px;
+    }
+
+    .update {
+        margin-left: 0%;
+    }
+
+    .update-text>h2 {
+        width: 82%;
+        font-size: 20px;
+        line-height: 0;
+    }
+
+    .update-text>p {
+        width: 82%;
+        margin-left: 0%;
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .update .update-email {
+        width: 80%;
+        height: 110px;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+
+    .update input {
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+
+    .update input[placeholder="Email"] {
+        width: 120px;
+        font-size: 10px;
+        height: 30px;
+        padding-left: 10px;
+        background-color: #D9DBE1;
+    }
+
+    .update-email .btn-primary {
+        height: 30px;
+        margin-top: 15%;
+    }
+}
+
+.hidden {
+    display: none;
+}
