@@ -575,6 +575,7 @@ footer div>h2 {
     .main-container2 {
         flex-direction: column;
         margin-left: 0%;
+        margin-bottom: 0%;
     }
 
     .main-container2>.image2 {
@@ -583,14 +584,20 @@ footer div>h2 {
         height: 300px;
     }
 
+    .main-container2>.image2 element.style {
+        width: 370px;
+        height: 280px;
+    }
+
     .main-container2>.main-text2 {
         width: 77%;
         margin-left: 0%;
     }
 
     .main-container2>.main-text2>h2 {
-        font-size: 38px;
-        line-height: 43px;
+        font-size: 25px;
+        width: 60%;
+        line-height: 90%;
     }
 
     .main-container2>.main-text2>p {
