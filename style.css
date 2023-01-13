@@ -651,6 +651,32 @@ footer div>h2 {
     }
 }
 
+@media only screen and (min-width: 577px) and (max-width: 1440px) {
+    .div-container>p {
+        top: 54.99%;
+        left: 23.99%;
+    }
+
+    .div-container>button {
+        top: 640px;
+        left: 45.5%;
+    }
+
+    .main-container,
+    .update {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .main-container2 {
+        margin-left: 0px;
+    }
+
+    .update .update-email {
+        margin-left: 210px;
+    }
+}
+
 .hidden {
     display: none;
 }
